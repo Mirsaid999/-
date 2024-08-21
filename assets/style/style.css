@@ -1,0 +1,156 @@
+@import './fonts.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.main{
+    background: url(../img/nastol.com.ua-57604.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    border-image: fill 0 linear-gradient(#0009,#000);
+}
+
+.text{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text__title{
+    margin-top: 100px;
+    font-size: 29px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: white;
+    margin-bottom: 7px;
+}
+
+.text__descr{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: white;
+    max-width: 1300px;
+    text-align: center;
+}
+
+.main__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 270px;
+    margin-top: 90px;
+}
+
+.info__contentes{
+    display: flex;
+    align-items: center;
+}
+
+.info__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    gap: 4px;
+}
+
+.info__title{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: green;
+}
+
+.info__subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: grey;
+}
+
+.border__img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__cards{
+    border-radius: 5px;
+    width: 100%;
+    max-width: max-content;
+    padding: 23px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.info__cards-title{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: black;
+}
+
+.info__cards-form input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    font-family: 'Roboto';
+    margin-bottom: 8px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.border{
+    width: 300px;
+    border-bottom: 2px solid black;
+}
+
+.info__btnes{
+    background-color: rgb(19, 157, 19);
+    padding: 12px 128px;
+}
+
+.info__btn{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+}
+
+
+
+
